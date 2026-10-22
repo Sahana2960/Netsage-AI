@@ -1,0 +1,9 @@
+| Case_ID | Expected_Fault | AI_Diagnosis   | Status    | Reviewer_Comment   |
+| ------- | -------------- | -------------- | --------- | ------------------ |
+| 1       | Missing VLAN   | Missing VLAN   | Approved  | Correct            |
+| 2       | Missing Route  | Missing VLAN   | Corrected | Similar VLAN issue |
+| 3       | Interface Down | Interface Down | Approved  | Correct            |
+| 4       | Wrong VLAN assignment     | Missing VLAN | Corrected | Similar VLAN issue |
+| 5       | Trunk port not configured | N/A          | Pending   | API quota exceeded |
+| 6       | VLAN not allowed on trunk | N/A          | Pending   | API quota exceeded |
+| 7       | Wrong access VLAN         | N/A          | Pending   | API quota exceeded |

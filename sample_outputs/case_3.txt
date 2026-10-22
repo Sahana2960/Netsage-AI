@@ -1,0 +1,2 @@
+GigabitEthernet0/1 is administratively down
+line protocol is down

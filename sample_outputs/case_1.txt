@@ -1,0 +1,4 @@
+Switch# show vlan brief
+
+VLAN 10 active
+VLAN 20 active
